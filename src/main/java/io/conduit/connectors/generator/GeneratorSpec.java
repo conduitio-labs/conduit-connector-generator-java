@@ -1,7 +1,9 @@
 package io.conduit.connectors.generator;
 
 import io.conduit.sdk.Specification;
+import jakarta.enterprise.context.ApplicationScoped;
 
+@ApplicationScoped
 public class GeneratorSpec implements Specification {
     @Override
     public String name() {
